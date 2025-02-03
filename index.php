@@ -1,6 +1,6 @@
 <?php
 $get = $_GET['get'];
-$mpdUrl = 'https://ucdn.starhubgo.com/bpk-tv/' . $get;
+$mpdUrl = 'https://ucdn.starhubgo.com/bpk-tv/HubPremier ' . $get;
 
 $mpdheads = [
   'http' => [
