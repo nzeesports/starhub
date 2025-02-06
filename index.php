@@ -1,5 +1,5 @@
 <?php
-$url = "https://ucdn.starhubgo.com/bpk-tv/HubSports5HD/output/manifest.mpd";
+$url = "https://ucdn.starhubgo.com/bpk-tv/";
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
